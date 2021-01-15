@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>造作新家网</title>
+		<!-- 引入自己页面的样式 -->
+		<link rel="stylesheet" type="text/css" href="./product-details.css" />
+		<!-- 引入一个框架样式 -->
+		<link rel="stylesheet" type="text/css" href="../assects/css/public.css" />
+		<!-- 标题小图标 -->
+		<link rel="icon" type="image/x-icon" href="../img/logo.ico" />
+		<!-- 引入jQuery -->
+		<script src="../assects/js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 引入商品列表的数据 -->
+		<script src="../house-all/data.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 引入自己的js -->
+		<script src="./product-details.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<!-- 顶部导航 -->
+		<div class="nav">
+			<!-- logo图标 -->
+			<div class="logo"></div>
+			<!-- 稍微靠左面的导航 -->
+			<div class="nav-bar">
+				<ul class="grp">
+					<a href="../index/index.html">
+						<li>首页</li>
+					</a>
+					<li class="house">
+						全屋系列
+						<!-- 全屋系列 -->
+						<ol class="house1">
+							<a href="../house-all/house-all.html">
+								<li>全部</li>
+							</a>
+							<li>美术馆系列</li>
+							<li>画板系列</li>
+							<li>山雪系列</li>
+							<li>青山系列</li>
+							<li>comso系列</li>
+							<li>朱雀系列</li>
+						</ol>
+					</li>
+					<li class="sofa">
+						沙发·椅凳
+						<!-- 沙发·椅凳 -->
+						<ol class="sofa1">
+							<li>全部</li>
+							<li>沙发</li>
+							<li>休闲椅</li>
+							<li>板凳</li>
+							<li>坐墩</li>
+						</ol>
+					</li>
+					<li class="frame">
+						框架
+						<!-- 框架 -->
+						<ol class="frame1">
+							<li>全部</li>
+							<li>电视柜</li>
+							<li>书柜·书架</li>
+							<li>衣柜</li>
+							<li>餐边柜</li>
+							<li>斗柜</li>
+							<li>鞋柜</li>
+							<li>玄关柜</li>
+							<li>床头柜</li>
+							<li>推车</li>
+							<li>置物架·储物格</li>
+							<li>衣帽架</li>
+						</ol>
+					</li>
+					<li class="bed">
+						床·床具
+						<!-- 床·床具 -->
+						<ol class="bed1">
+							<li>全部</li>
+							<li>床</li>
+							<li>床垫</li>
+							<li>床头柜</li>
+							<li>床尾凳</li>
+							<li>床品</li>
+							<li>被褥</li>
+							<li>枕芯</li>
+						</ol>
+					</li>
+					<li class="table">
+						桌几
+						<!-- 桌几 -->
+						<ol class="table1">
+							<li>全部</li>
+							<li>餐桌·书桌</li>
+							<li>茶几</li>
+							<li>边桌</li>
+							<li>梳妆台</li>
+						</ol>
+					</li>
+					<li class="lamps">
+						灯具
+						<!-- 灯具 -->
+						<ol class="lamps1">
+							<li>全部</li>
+							<li>地灯</li>
+							<li>吊灯</li>
+							<li>台灯</li>
+							<li>吸顶灯</li>
+							<li>台灯</li>
+						</ol>
+					</li>
+					<li class="htextiles">
+						家纺·床品
+						<!-- 家纺·床品 -->
+						<ol class="htextiles1">
+							<li>全部</li>
+							<li>地灯</li>
+							<li>吊灯</li>
+							<li>台灯</li>
+							<li>吸顶灯</li>
+							<li>台灯</li>
+						</ol>
+					</li>
+					<li class="decoration">
+						装饰·收纳
+						<!-- 装饰·收纳 -->
+						<ol class="decoration1">
+							<li>全部</li>
+							<li>墙镜</li>
+							<li>花瓶</li>
+							<li>摆件</li>
+							<li>收纳</li>
+							<li>装饰画</li>
+						</ol>
+					</li>
+					<li class="tableware">
+						餐具·水具
+						<!-- 餐具·水具 -->
+						<ol class="tableware1">
+							<li>全部</li>
+							<li>餐具</li>
+							<li>杯子</li>
+							<li>托盘·果盘</li>
+							<li>食品储物</li>
+						</ol>
+					</li>
+				</ul>
+
+			</div>
+			<!-- 稍微靠右的导航 -->
+			<div class="menu-bar">
+				<ul>
+					<a href="../other/national-stores/national-stores.html">
+						<li class="address">
+							<div class="pic"></div>
+							实体店
+						</li>
+					</a>
+					<a href="../other/understand-zaozuo/understand-zaozuo.html">
+						<li>了解造作新家</li>
+					</a>
+					<a href="../other/collaboration/collaboration.html">
+						<li>商业合作</li>
+					</a>
+					<!-- 登录页面 -->
+					<a href="../log/log.html">
+						<li class="man"></li>
+					</a>
+					<!-- 购物车 -->
+					<a href="../cart/cart.html"><li class="sart"></li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- 隐藏的导航，滑动一定高度之后显示 -->
+		<div class="hiddenNav active">
+			<div class="left">
+				<ul>
+					<li>设计师</li>
+					<li>|</li>
+					<li>细节</li>
+					<li>|</li>
+					<li>
+						优惠组合
+						<i>8</i>
+					</li>
+					<li>|</li>
+					<li>
+						晒单
+						<i>171</i>
+					</li>
+				</ul>
+			</div>
+			<div class="right">
+				<div class="addCart">加入购物车</div>
+				<div class="cart">
+					<img src="productimg/cart.png">
+					购物车
+				</div>
+			</div>
+		</div>
+		<!-- 侧边栏 -->
+		<div class="aside">
+			<div>
+				<div class="aside-dwload">
+					<img src="productimg/aside1.png" >
+				</div>
+				<div class="aside-content">下载APP</div>
+			</div>
+		
+			<div>
+				<div class="aside-set">
+					<img src="productimg/aside2.png" >
+				</div>
+				<div class="aside-content">收藏</div>
+			</div>
+			<div>
+				<div class="aside-set">
+					<img src="productimg/aside3.png" >
+				</div>
+				<div class="aside-content">客服</div>
+			</div>
+			<div class="goTop">
+				<div class="aside-gotop">
+					<img src="productimg/aside4.png" >
+				</div>
+				<div class="aside-content" style="border-bottom: 0;">回顶部</div>
+			</div>
+		</div>
+		<!-- 主要内容 -->
+		<div class="main">
+			<div class="container">
+				<!-- 商品图片以及规格 -->
+				<div class="proStyle">
+					
+				</div>
+
+
+			</div>
+
+			<!-- 第一个背景 -->
+			<div class="bc1">
+				<div class="lft">
+					<div class="luca"></div>
+					<div class="luca-name">Luca Nichetto</div>
+					<div class="luca-cnt">Italy | Sweden</div>
+					<div class="luca-more">了解更多</div>
+				</div>
+				<div class="rgt">
+					意大利及瑞典著名建筑师、设计师；众多国际知名设计展策展人、国际设计比赛评委；
+					造作艺术总监及战略顾问与Casamania等世界上几乎所有的精尖品牌合作，并荣获IF、EDIDA等
+					一系列国际重量级设计大奖2013年被Interior Innovation Award和Elle Décor Italy联合授予年度设计师
+					2013年受邀成为全球知名家具家居设计展IMM Cologne荣誉嘉宾2015年被Wallpaper*评选为全球最具影响力的100位设计师之一
+				</div>
+			</div>
+			<!-- 第二个背景 -->
+			<div class="bgd bc2"></div>
+			<!-- 第三个背景 -->
+			<div class="bgd bc3">
+				<div class="word1">
+					一个沙发，宣告社会主义中国
+				</div>
+				<div class="word2">
+					COFA，城市客厅的环抱之作
+				</div>
+			</div>
+			<!-- 第四个背景 -->
+			<div class="bgd bc4">
+				<div class="word1">
+					宁静午后，休闲小憩
+				</div>
+				<div class="word2">
+					C形曲线靠背带来环抱式坐感，周末午后，在宁静氛围中小憩几分，一人安享此刻悠闲
+				</div>
+			</div>
+			<!-- 第五个背景 -->
+			<div class="bgd bc5">
+				<div class="word1">
+					美好风趣，漫步现代时光
+				</div>
+				<div class="word2">
+					砂棕格COFA对坐，奠定空间现代基调，茶几、边柜、墙面、地板，以原木色相衬，将心之所向的美好风趣，落地客厅
+				</div>
+			</div>
+			<!-- 第六个背景 -->
+			<div class="bgd bc6">
+				<div class="word1">
+					淳厚布质，空间独有锋芒
+				</div>
+				<div class="word2">
+					高级布质带来前所未有的视触感受，以像素级淳厚质感，收拢目光焦点，默立空间而保有锋芒
+				</div>
+			</div>
+			<!-- 第七个背景 -->
+			<div class="bgd bc7">
+				<div class="word1">
+					定义精致的先锋派起居
+				</div>
+				<div class="word2">
+					与独具创想的谜盒，搭起散溢精致的现代感客厅，高低间开放错落，诠释前卫与格调的日常起居
+				</div>
+			</div>
+			<!-- 第八个背景 -->
+			<div class="bgd bc8">
+				<div class="word1">
+					心境淡然，安宁独处
+				</div>
+				<div class="word2">
+					灰白COFA单人座，与浅色盎然集线边桌、鹿铃优雅相映，书茶为伴，开启静谧独处时间
+				</div>
+			</div>
+			<!-- 第九个背景 -->
+			<div class="bgd bc9">
+				<div class="word1">
+					由内而外的清雅气质
+				</div>
+				<div class="word2">
+					灰墙和线条简淡的地板，月灰格COFA搭配轻巧画板咖啡几，白衬衣一般，为浅色空间注入清雅气质
+				</div>
+			</div>
+			<!-- 第十个背景 -->
+			<div class="bgd bc10">
+				<div class="word1">
+					怡然自在的居家氛围
+				</div>
+				<div class="word2">
+					浅色整体为家注入清新怡然的氛围，简洁不冗余的线条交错，呈现一种悠闲的生活品味
+				</div>
+			</div>
+			<!-- 第十一个背景 -->
+			<div class="bgd bc11">
+				<div class="word1">
+					安享沉静的深色格调
+				</div>
+				<div class="word2">
+					海蓝格COFA与胡桃木色画板系列相搭，为客厅带来沉稳的独特质感，一束阳光拂暖静谧起居
+				</div>
+			</div>
+			<!-- 第十二个背景 -->
+			<div class="bgd bc12">
+				<div class="word1">
+					非凡身姿，探索生活新可能
+				</div>
+				<div class="word2">
+					C形曲线天生非凡，侧放墙角，表达你与众不同的性格，大胆探索一种更适宜自己的生活可能
+				</div>
+			</div>
+			<!-- 第十三个背景 -->
+			<div class="bgd bc13">
+				<div class="word1">
+					简练开放的精致围合
+				</div>
+				<div class="word2">
+					适宜比例与简练线条，把舒缓起居留给客厅，随心可得的悠闲时刻，营造出家的温馨感
+				</div>
+			</div>
+			<!-- 第十四个背景 -->
+			<div class="bgd bc14">
+				<div class="letter1">
+					C形环抱曲线
+					繁华处的意蕴交融
+				</div>
+				<div class="letter2">
+					Luca Nichetto中国首作，来自Center of circle，Contemporary China，City club的灵感，呈现当代中国的摩登新篇
+				</div>
+			</div>
+			<!-- 第十五个背景 -->
+			<div class="bgd bc15">
+				<div class="letter1">
+					530g特选面料，呈现独特质感
+				</div>
+				<div class="letter2">
+					欧洲品级530g特选面料，精细质感远超普通面料，立体混线编织，配合视线移动，每一步皆有不同色彩表现
+				</div>
+			</div>
+			<!-- 第十六个背景 -->
+			<div class="bgd bc16">
+				<div class="letter1">
+					纤细沙发腿
+					不露一颗铆钉
+				</div>
+				<div class="letter2">
+					以A级整条白橡木，打造4cm纤细沙发腿，沙发脚数量与位置经过精准测试，保证沙发重心平稳，同时内侧槽位采用CNC精密机械加工，实现不露一颗铆钉的优雅背面
+				</div>
+			</div>
+			<!-- 第十七个背景 -->
+			<div class="bgd bc17">
+				<div class="word1">
+					手工贴合扪制，3面弧度精准收敛
+				</div>
+				<div class="word2">
+					高精度手工扪制面料，实现C型环绕曲线造型，欧洲同品级作业精度，保持每根线条误差小于5mm
+				</div>
+			</div>
+			<!-- 第十八个背景 -->
+			<div class="bgd bc18">
+				<div class="word1">
+					曲线中国摩登的谦恭
+				</div>
+				<div class="word2">
+					现代主义设计的华丽新曲线，无需尽力已落座中央，以城市之名拥抱派对
+				</div>
+			</div>
+			<!-- 第十九个背景 -->
+			<div class="bgd bc19">
+				<div class="sentence1">
+					媒体证言：现代曲线证言摩登
+				</div>
+				<div class="sentence2">
+					C形曲线环抱的优雅，演绎现代的年轻与摩登，cofa，不仅受到了大众的喜爱，更获得了众多国际媒体的肯定
+				</div>
+				<span class="span">
+					了解更多相关报道
+					<img src="productimg/toButtom.png">
+				</span>
+			</div>
+			<!-- 第十九个背景点击之后显示的隐藏页面 -->
+			<div class="bc19Hidden active">
+				<img src="productimg/bc19hidden1.jpg">
+				<p>有着“设计界圣经”之称的英国设计杂志Wallpaper* 在2016年一月刊以“Local hero”为题对造作进行报道，创始人舒为携弓椅等六件作品登上杂志内页。</p>
+				<img src="productimg/bc19hidden2.jpg">
+				<p>品位居家的必选杂志《ELLE DECORATION家居廊》，从600+年轻人中选出了屋主周贞贞的家登上2017年7月刊，主人用C型环绕曲线的COFA构建了客厅的中心，展示着年轻人的现代与摩登（图片版权©️《Elle
+					Decoration家居廊》，摄影：赵易宏）</p>
+				<span>收起</span>
+			</div>
+			<!-- 第二十个背景 -->
+			<div class="bgd bc20">
+				<div class="sentence1">
+					独创外观设计，国家专利授权
+				</div>
+				<div class="sentence2">
+					独有的形态与色彩自然结合，带来惊艳而舒适的视觉体验，获得国家外观设计专利授权<br>
+					（中国专利号 ZL 2016 3 0018616.1）
+				</div>
+			</div>
+			<!-- 第二十一个背景 -->
+			<div class="bgd bc21">
+				<div class="sentence1">
+					独创外观设计，国家专利授权
+				</div>
+				<div class="sentence2">
+					独有的形态与色彩自然结合，带来惊艳而舒适的视觉体验，获得国家外观设计专利授权<br>
+					（中国专利号 ZL 2016 3 0018616.1）
+				</div>
+			</div>
+			<!-- 第二十二个背景 -->
+			<div class="bgd bc22">
+
+			</div>
+			<!-- 第二十三个背景 -->
+			<div class="bgd bc23">
+				<div class="sentence3">
+					严苛保证质量
+				</div>
+				<span>
+					查看产品参数
+					<img src="productimg/toButtomW.png">
+				</span>
+			</div>
+			<!-- 第二十三个背景的隐藏页面 -->
+			<div class="bc23Hidden active">
+				<img src="productimg/bc23Hidden1.jpg">
+				<p>面料质检报告</p>
+				<img src="productimg/bc23Hidden2.jpg">
+				<p>海绵质检报告</p>
+				<span>收起</span>
+			</div>
+
+
+			<!-- 造作官方推荐组合 -->
+
+			<div class="recommend">
+				<div class="container1">
+					<div class="recommend-title">造作官方推荐组合</div>
+					<!-- 推荐1 -->
+					<div class="recommend-box">
+						<div class="lft">
+							<div>
+								<img src="productimg/recommend1.jpg">
+								<div class="titleR">COFA®</div>
+								<div class="priceR">¥3999起×1</div>
+							</div>
+							<div class="add">+</div>
+							<div>
+								<img src="productimg/recommend2.jpg">
+								<div class="titleR">美术馆电视柜</div>
+								<div class="priceR">¥3299起×1</div>
+							</div>
+						</div>
+						<div class="rgt">
+							<div class="reTitle">
+								COFA+美术馆电视柜
+							</div>
+							<div class="rePrice">
+								<span>￥6935起</span>
+								<i>最高可省698元</i>
+							</div>
+							<div class="addCart">
+								加入购物车
+							</div>
+						</div>
+					</div>
+					<!-- 推荐2 -->
+					<div class="recommend-box">
+						<div class="lft">
+							<div>
+								<img src="productimg/recommend3.jpg">
+								<div class="titleR">COFA®</div>
+								<div class="priceR">¥7999起×1</div>
+							</div>
+							<div class="add">+</div>
+							<div>
+								<img src="productimg/recommend4.jpg">
+								<div class="titleR">飞鸟实木茶几</div>
+								<div class="priceR">¥2599起×1</div>
+							</div>
+							<div class="add">+</div>
+							<div>
+								<img src="productimg/recommend5.jpg">
+								<div class="titleR">薄雾台灯</div>
+								<div class="priceR">¥799起×1</div>
+							</div>
+						</div>
+						<div class="rgt">
+							<div class="reTitle">
+								COFA双人/三人位A+飞鸟茶几+薄雾台灯
+							</div>
+							<div class="rePrice">
+								<span>￥10260起</span>
+								<i>最高可省1377元</i>
+							</div>
+							<div class="addCart">
+								加入购物车
+							</div>
+						</div>
+					</div>
+					<!-- 推荐3 -->
+					<div class="recommend-box">
+						<div class="lft">
+							<div>
+								<img src="productimg/recommend6.jpg">
+								<div class="titleR">COFA®</div>
+								<div class="priceR">¥3999起×1</div>
+							</div>
+							<div class="add">+</div>
+							<div>
+								<img src="productimg/recommend7.jpg">
+								<div class="titleR">美术馆茶几</div>
+								<div class="priceR">¥2599起×1</div>
+							</div>
+							<div class="add">+</div>
+							<div>
+								<img src="productimg/recommend8.jpg">
+								<div class="titleR">薄雾台灯</div>
+								<div class="priceR">¥799起×1</div>
+							</div>
+						</div>
+						<div class="rgt">
+							<div class="reTitle">
+								COFA沙发+美术馆茶几+薄雾台灯
+							</div>
+							<div class="rePrice">
+								<span>￥6660起</span>
+								<i>最高可省1437元</i>
+							</div>
+							<div class="addCart">
+								加入购物车
+							</div>
+						</div>
+					</div>
+					<!-- 推荐4 -->
+					<div class="recommend-box">
+						<div class="lft">
+							<div>
+								<img src="productimg/recommend9.jpg">
+								<div class="titleR">COFA®</div>
+								<div class="priceR">¥3999起×1</div>
+							</div>
+							<div class="add">+</div>
+							<div>
+								<img src="productimg/recommend10.jpg">
+								<div class="titleR">薄雾台灯</div>
+								<div class="priceR">¥799起×1</div>
+							</div>
+						</div>
+						<div class="rgt">
+							<div class="reTitle">
+								COFA+薄雾台灯
+							</div>
+							<div class="rePrice">
+								<span>￥4419起</span>
+								<i>最高可省862元</i>
+							</div>
+							<div class="addCart">
+								加入购物车
+							</div>
+						</div>
+					</div>
+					<!-- 推荐5 -->
+					<div class="recommend-box">
+						<div class="lft">
+							<div>
+								<img src="productimg/recommend11.jpg">
+								<div class="titleR">COFA®</div>
+								<div class="priceR">¥3999起×1</div>
+							</div>
+							<div class="add">+</div>
+							<div>
+								<img src="productimg/recommend12.jpg">
+								<div class="titleR">飞鸟实木茶几</div>
+								<div class="priceR">¥2599起×1</div>
+							</div>
+						</div>
+						<div class="rgt">
+							<div class="reTitle">
+								COFA沙发+飞鸟茶几
+							</div>
+							<div class="rePrice">
+								<span>￥5874起</span>
+								<i>最高可省1428元</i>
+							</div>
+							<div class="addCart">
+								加入购物车
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- 设计师建议您这样搭配 -->
+			<div class="match">
+				<div class="match-title">
+					设计师建议您这样搭配
+				</div>
+				<div class="container1">
+					<div>
+						<img src="productimg/match1.jpg">
+						<div class="matchTitle">美术馆茶几</div>
+						<div class="matchPrice">￥2599起</div>
+						<div class="matchChoose">2色可选</div>
+					</div>
+					<div>
+						<img src="productimg/match2.jpg">
+						<div class="matchTitle">薄雾台灯</div>
+						<div class="matchPrice">￥799</div>
+						<div class="matchChoose"></div>
+					</div>
+					<div>
+						<img src="productimg/match3.jpg">
+						<div class="matchTitle">COFA L®</div>
+						<div class="matchPrice">￥15999</div>
+						<div class="matchChoose">1色可选</div>
+					</div>
+					<div>
+						<img src="productimg/match4.jpg">
+						<div class="matchTitle">造作盎然集线边桌®</div>
+						<div class="matchPrice">￥899</div>
+						<div class="matchChoose">1色可选</div>
+					</div>
+					<div>
+						<img src="productimg/match5.jpg">
+						<div class="matchTitle">COSMO星格™衣柜·斗柜</div>
+						<div class="matchPrice">￥3499</div>
+						<div class="matchChoose"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 服务承诺 -->
+			<div class="commitment">
+				<div class="comTitle">服务承诺</div>
+				<div class="container1">
+					<div class="commitment1">
+						<img src="productimg/compc1.png" >
+						<div class="crt">满199</div>
+						<div class="bot">免费送装</div>
+					</div>
+					<div class="commitment2">
+						<img src="productimg/compc2.png" >
+						<div class="crt">延期高利补偿/确保</div>
+						<div class="bot">准时交付</div>
+					</div>
+					<div class="commitment3">
+						<img src="productimg/compc3.png" >
+						<div class="crt">价格保障/变动返差价</div>
+						<div class="bot">7日保价</div>
+					</div>
+					<div class="commitment4">
+						<img src="productimg/compc4.png" >
+						<div class="crt">三年/质保</div>
+						<div class="bot">7日质保</div>
+					</div>
+				</div>
+			</div>
+			<!-- 晒单 -->
+			
+			<div class="postP">
+				<ul>
+					<li class="te">晒单</li>
+					<li>常见问题</li>
+				</ul>
+				<div class="postPic">
+					<div class="postpc1">
+						<img src="productimg/postpc1.png" >
+					</div>
+					<div class="postpc2 active">
+						<img src="productimg/postpc2.png" >
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<!-- 底部边栏 -->
+		<div class="footer">
+			<div class="container">
+				<div class="footerlogo">
+					<div class="pic"></div>
+					<span>zaozuo.com</span>
+					<!-- 微信按钮 -->
+					<div class="weixin"></div>
+				</div>
+				<div class="content">
+					<div class="about">
+						<div class="title">关于造作新家</div>
+						<ul class="cnt">
+							<li>团队介绍</li>
+							<li>设计师团</li>
+							<li>媒体报道</li>
+							<li>加入造作新家</li>
+							<li>Designer Hiring</li>
+						</ul>
+					</div>
+					<div class="service">
+						<div class="title">服务支持</div>
+						<ul class="cnt">
+							<li>服务保障</li>
+							<li>用户协议</li>
+							<li>物流售后服务</li>
+						</ul>
+					</div>
+					<div class="cooperation">
+						<div class="title">商业合作</div>
+						<ul class="cnt">
+							<li>集合采购</li>
+							<li>伙伴加盟</li>
+							<li>品牌合作</li>
+							<li>媒体合作</li>
+							<li>设计师入驻</li>
+						</ul>
+					</div>
+				</div>
+				<div class="phone">
+					<div class="title">联系我们</div>
+					<div class="number">400-6636-926（9:00~21:00）</div>
+					<div class="online">在线客服</div>
+					<div class="newhome">造作新家全国实体店</div>
+				</div>
+
+			</div>
+			<div class="footerwords">
+				Copyright © 2018 zaozuo.com Inc.All Rights Reserved. 北京造化科技有限公司<br>
+
+				版权所有&nbsp; 京ICP备14049641号-1&nbsp; 增值电信业务经营许可证：京ICP证150098号<br>
+
+				造作新家官网-全球设计师创作家居品牌<br>
+
+				营业执照
+			</div>
+		</div>
+	</body>
+
+</html>

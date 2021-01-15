@@ -1,0 +1,266 @@
+.main .colbc1 {
+	width: 100%;
+	height: 470px;
+	background: url(./img/colbc1.jpg) no-repeat center center;
+	background-size: contain;
+	padding: 1px;
+}
+
+.main .colbc1 .title {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 100px;
+	font-weight: 700;
+}
+
+.main .colbc1 .title1 {
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 550;
+}
+
+.main .colbc1 .content {
+	width: 500px;
+	margin: 50px auto 0 auto;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 550;
+}
+
+.main .colbc1 .content1 {
+	margin: auto;
+	width: 500px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 550;
+	line-height: 50px;
+}
+
+.main .catalogue {
+	width: 900px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.main .catalogue .catTitle{
+	text-align: center;
+}
+.main .catalogue .cat1pic{
+	width: 4.5rem;
+	height: 3.6rem;
+	background: url(./img/xuebi.png) no-repeat center center;
+	background-size: cover;
+	background-position: 0 0;
+}
+.main .catalogue .cat2pic{
+	width: 4.5rem;
+	height: 3.6rem;
+	background: url(./img/xuebi.png) no-repeat center center;
+	background-size: cover;
+	background-position: -70px 0;
+}
+.main .catalogue .cat3pic{
+	width: 4.5rem;
+	height: 3.6rem;
+	background: url(./img/xuebi.png) no-repeat center center;
+	background-size: cover;
+	background-position: -145px 0;
+}
+.main .catalogue .cat4pic{
+	width: 4.5rem;
+	height: 3.6rem;
+	background: url(./img/xuebi.png) no-repeat center center;
+	background-size: cover;
+	background-position: -220px 0;
+}
+.main .catalogue .cat5pic{
+	width: 4.5rem;
+	height: 3.6rem;
+	background: url(./img/xuebi.png) no-repeat center center;
+	background-size: cover;
+	background-position: -295px 0;
+}
+
+.main .purchase{
+	width: 1100px;
+	margin: 10px auto;
+	height: 480px;
+	display: flex;
+	justify-content: space-between;
+}
+.main .purchase .puCar{
+	width: 470px;
+	height: 450px;
+	overflow: hidden;
+	position: relative;
+}
+.main .purchase .puCar>ul{
+	display: flex;
+	animation: move 8s linear infinite;
+	position: absolute;
+}
+.main .purchase .puCar>ul>li>img{
+	width: 470px;
+	height: 450px;
+}
+@keyframes move{
+	0%,15%{
+		left:0;
+	}
+	20%,35%{
+		left: -470px;
+	}
+	40%,55%{
+		left: -940px;
+	}
+	60%,75%{
+		left: -1410px;
+	}
+	85%,100%{
+		left: -1880px;
+	}
+}
+
+.main .purchase .purchase-content{
+	width: 540px;
+	height: 450px;
+	background-color: #F6F6F6;
+}
+
+.main .purchase .purchase-title{
+	margin-top: 80px;
+	font-size: 30px;
+	font-weight: 600;
+}
+.main .purchase .purchase-word{
+	margin-top: 40px;
+	font-size: 14px;
+	width: 500px;
+	color: #222;
+}
+.main .purchase .purchase-pic{
+	margin-top: 40px;
+}
+
+.main .invite{
+	width: 1100px;
+	margin: 10px auto;
+	height: 480px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .invite .invite-content{
+	width: 540px;
+	height: 450px;
+	background-color: #F6F6F6;
+}
+
+.main .invite .invite-title{
+	margin-top: 80px;
+	font-size: 30px;
+	font-weight: 600;
+}
+.main .invite .invite-word{
+	margin-top: 40px;
+	font-size: 14px;
+	width: 500px;
+	color: #222;
+}
+.main .invite .invite-pic{
+	margin-top: 40px;
+	
+}
+
+.main .invite .inviteCar{
+	width: 470px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+}
+.main .invite .inviteCar>ul{
+	display: flex;
+	animation: move1 8s linear infinite;
+	position: absolute;
+}
+.main .invite .inviteCar>ul img{
+	width: 29.375rem;
+	height: 450px;	
+}
+@keyframes move1{
+	0%,20%{
+		left: 0;
+	}
+	25%,45%{
+		left: -470px;
+	}
+	50%,70%{
+		left: -940px;
+	}
+	75%,100%{
+		left: -1410px;
+	}
+}
+
+.main .cooperation{
+	width: 1100px;
+	margin: 10px auto;
+	height: 480px;
+	display: flex;
+	justify-content: space-between;
+}
+.main .cooperation .copCar{
+	width: 470px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+}
+.main .cooperation .copCar>ul{
+	position: absolute;
+	animation: move2 8s linear infinite;
+	display: flex;
+	
+}
+.main .cooperation .copCar>ul img{
+	width: 470px;
+	height: 450px;
+}
+@keyframes move2{
+	0%,15%{
+		left:0;
+	}
+	20%,35%{
+		left: -470px;
+	}
+	40%,55%{
+		left: -940px;
+	}
+	60%,75%{
+		left: -1410px;
+	}
+	85%,100%{
+		left: -1880px;
+	}
+}
+.main .cooperation .cooperation-content{
+	width: 540px;
+	height: 450px;
+	background-color: #F6F6F6;
+}
+
+.main .cooperation .cooperation-title{
+	margin-top: 80px;
+	font-size: 30px;
+	font-weight: 600;
+}
+.main .cooperation .cooperation-word{
+	margin-top: 40px;
+	font-size: 14px;
+	width: 500px;
+	color: #222;
+}
+.main .cooperation .cooperation-pic{
+	margin-top: 40px;
+	
+}

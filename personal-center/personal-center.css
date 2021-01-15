@@ -1,0 +1,586 @@
+.container1 {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+i{
+	font-style: normal;
+}
+/* 会员中心 */
+.main .box1 {
+	display: none;
+}
+
+.main .privy-nav {
+	height: 50px;
+	width: 100%;
+	background-color: #F6F6F6;
+	border-bottom: 1px solid #666;
+	margin: 50px 0;
+	display: flex;
+}
+
+.main .privy-nav>li {
+	line-height: 50px;
+	margin-left: 35px;
+	height: 50px;
+	width: auto;
+}
+
+.main .privy-nav .li1 {
+	margin-left: 90px;
+
+}
+
+.main .privy-nav .border {
+	border-bottom: 3px solid #333;
+}
+
+.main .zaoZuo {
+	height: 135px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .zaoZuo .zaoZuoLogo {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: url(img/zaozuologo.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .zaoZuo .zaoZuo-userName{
+	line-height: 80px;
+}
+
+.main .zaoZuo .learn {
+	width: 160px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #999;
+	border-radius: 5px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+.main .become {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.main .line {
+	width: 100%;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #F6F6F6;
+	margin: 30px 0;
+}
+
+.main .privilege {
+	height: 360px;
+	width: 100%;
+	border: 1px solid #999;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main .priBox {
+	width: 250px;
+	height: 170px;
+	text-align: center;
+
+}
+
+.main .priBox img {
+	height: 30px;
+	margin-top: 30px;
+}
+
+.main .priBox .priTitle {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.main .priBox .priText {
+	font-size: 14px;
+	width: 140px;
+	margin: 10px auto;
+	color: #999;
+}
+
+.main .perfect {
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin: 50px 0;
+}
+
+.main .perfectBox {
+
+	height: 140px;
+	width: 760px;
+	border: 1px solid #999;
+	margin: 30px auto 100px auto;
+}
+
+.main .perfectBox>div {
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+.main .perText1 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.main .perText2 {
+	font-size: 14px;
+	color: #666666;
+
+}
+
+.main .perText3 {
+	display: flex;
+	font-size: 14px;
+}
+
+.main .perText3 li {
+	list-style: disc;
+	margin-left: 80px;
+	line-height: 50px;
+}
+
+
+/* 我的订单 */
+
+.main .order-nav {
+	width: 100%;
+	height: 50px;
+	background-color: #F6F6F6;
+	display: flex;
+}
+
+.main .order-nav>li {
+	margin: 0 30px;
+	line-height: 50px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.main .order-content {
+	width: 100%;
+	height: 500px;
+	background-color: #F6F6F6;
+	line-height: 500px;
+	text-align: center;
+}
+
+
+/* 优惠券 */
+
+.main .discount-nav {
+	width: 100%;
+	height: 50px;
+	background-color: #F6F6F6;
+	display: flex;
+}
+
+.main .discount-nav>li {
+	margin: 0 30px;
+	line-height: 50px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.main .discount-content {
+	width: 100%;
+	height: 500px;
+	background-color: #F6F6F6;
+
+}
+
+.main .discount-content>p {
+	text-align: center;
+	line-height: 100px;
+	color: #666666;
+}
+
+.main .discount-content input {
+	height: 35px;
+	width: 200px;
+}
+
+.main .discount-content button {
+	height: 40px;
+	width: 50px;
+	background-color: #000000;
+	color: #fff;
+}
+
+.main .discount-content1 {
+	width: 100%;
+	height: 500px;
+	background-color: #F6F6F6;
+}
+
+.main .discount-content1 input {
+	height: 35px;
+	width: 200px;
+}
+
+.main .discount-content1 button {
+	height: 40px;
+	width: 50px;
+	background-color: #000000;
+	color: #fff;
+}
+
+/* 我的消息 */
+.main .message-content {
+	width: 100%;
+	height: 500px;
+	background-color: #F6F6F6;
+	text-align: center;
+	padding-top: 200px;
+}
+
+/* 我的晒单 */
+.main .post-content {
+	width: 100%;
+	height: 500px;
+	background-color: #F6F6F6;
+	display: flex;
+}
+
+.main .post-content .postText1 {
+	font-size: 26px;
+	width: 700px;
+	line-height: 50px;
+}
+
+.main .post-content .postText2 {
+	font-size: 18px;
+	width: 700px;
+	line-height: 50px;
+}
+
+.main .post-content .postText3 {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.main .post-content .postText3 .pTTitle {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	width: 240px;
+}
+
+.main .post-content .postText3 .pTContent {
+	line-height: 30px;
+	width: 240px;
+}
+
+.main .post-content .zaozuo {
+	margin: 10px 200px;
+}
+
+/* 我的资料 */
+.main .myData {
+	width: 100%;
+	height: 220px;
+	border-bottom: 1px solid #D2D2D2;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.main .myData .newZaozuo {
+	width: 50%;
+	height: 125px;
+	border-right: 1px solid #D2D2D2;
+	display: flex;
+}
+
+.main .myData .newZaozuo .newZaozuo-logo {
+	width: 125px;
+	height: 125px;
+	background: url(./img/zaozuologo.jpg) no-repeat center center;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.main .myData .newZaozuo .newZaozuo-zo {
+	width: 30px;
+	height: 20px;
+	background: url(./img/zo.png) no-repeat center center;
+	background-size: cover;
+	margin: auto 5px auto 40px;
+}
+
+.main .myData .newZaozuo p {
+	line-height: 125px;
+	font-size: 14px;
+	color: #707070;
+}
+
+.main .myData .bind {
+	margin-left: 50px;
+}
+
+.main .myData .bind p {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.main .myData .bind .set{
+	cursor: pointer;
+}
+/* 修改个人资料 */
+.main .bcBox2{
+	display: none;
+	left: 0;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(200,200,200,0.8);
+}
+.main .setData{
+	padding: 1px;
+	background-color: #fff;
+	/* left: 400px;
+	top: 100px; */
+	width: 550px;
+	height: 530px;
+	/* border: 1px solid #000000; */
+	margin: 100px auto;
+}
+.main .setData .avatar{
+	height: 100px;
+	width: 500px;
+	display: flex;
+	margin: 20px auto;
+}
+.main .setData .avatar .avatarPic{
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid #666;
+	display: block;
+	
+}
+.main .setData .avatar .avatarPic img{
+	width: 100px;
+}
+.main .setData .avatar .avatarTitle{
+	margin-left: 40px;
+	color: #666;
+	line-height: 100px;
+}
+.main .setData .nickname{
+	margin: 30px auto;
+	width: 500px;
+	height: 50px;
+	background-color: #aaa;
+	line-height: 50px;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+.main .setData  input{
+	width: 300px;
+	height: 40px;
+	border: 0;
+	outline: none;
+	background-color: #aaa;
+}
+.main .setData .sex{
+	cursor: pointer;
+	margin: 30px auto;
+	width: 500px;
+	height: 50px;
+	background-color: #aaa;
+	line-height: 50px;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+.main .setData .birthday{
+	cursor: pointer;
+	margin: 30px auto;
+	width: 500px;
+	height: 50px;
+	background-color: #aaa;
+	line-height: 50px;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+.main .setData .confirm{
+	width: 500px;
+	margin: 30px auto;
+	color: #aaa;
+}
+.main .setData .confirmBut{
+	margin: 50px auto;
+	width: 380px;
+	height: 50px;
+	background-color: #5BB688;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+
+
+.main .myData .bind>ul {
+	display: flex;
+	margin-top: 40px;
+	margin-left: -20px;
+	cursor: pointer;
+}
+
+.main .myData .bind>ul>li {
+	width: 30px;
+	height: 30px;
+	background-color: #A0A0A0;
+	margin: 0 20px;
+}
+
+.main .myData .bind>ul>li>img {
+	width: 20px;
+	padding: 5px;
+}
+
+.main .myData .bind span {
+	display: block;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.main .bankcard .bankcard-title {
+	font-size: 28px;
+	margin-top: 50px;
+}
+
+.main .bankcard .bankcard-add {
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #000;
+	border-radius: 40px;
+	cursor: pointer;
+	text-align: center;
+	margin-top: 35px;
+}
+.main .haveaddress{
+	width: 100%;
+	height: 300px;
+	background: url(./img/address.jpg) no-repeat center center;
+	background-size: cover;
+	margin-top: 50px;
+	padding: 1px;
+}
+.main .haveaddress .haveaddress-title {
+	font-size: 28px;
+	margin-top: 50px;
+	color: #FFFFFF;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.main .haveaddress .haveaddress-add {
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	background-color: #58AE83;
+	border-radius: 40px;
+	cursor: pointer;
+	text-align: center;
+	margin-top: 35px;
+	margin-left: 50px;
+}
+/* 我的收藏 */
+.main .favorites-nav{
+	display: flex;
+	
+}
+.main .favorites-nav>li{
+	margin-left: 30px;
+	cursor: pointer;
+}
+.main .favorites-text>div{
+	width: 100%;
+	height: 500px;
+	background-color: #F6F6F6;
+	text-align: center;
+	line-height: 500px;
+	display: none;
+}
+
+
+/* 添加收货地址页面 */
+.main .bcBox1{
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 700px;
+	background-color: #000000;
+	opacity: 0.8;
+	z-index: 1;
+	top: 0;
+}
+.main .shopAddress{
+	margin: 100px auto;
+	width: 850px;
+	height: 500px;
+	background-color: #fff;
+	font-size: 18px;
+	color: #333;
+}
+.main .shopAddress span{
+	display: block;
+	margin: 30px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.main .shopAddress p{
+	margin: 20px;
+}
+.main .shopAddress select{
+	width: 200px;
+	height: 30px;
+}
+.main .shopAddress input{
+	width: 400px;
+	height: 30px;
+}
+.main .shopAddress p.product-info input{
+	width: 180px;
+	height: 30px;
+}
+.main .shopAddress p.checkBox input{
+	width: 16px;
+	height: 16px;
+}
+.main .shopAddress p.checkBox i{
+	font-size: 14px;
+}
+.main .shopAddress .save{
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #000000;
+	color: #fff;
+	margin: 30px;
+	font-size: 14px;
+	cursor: pointer;
+}

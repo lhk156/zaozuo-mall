@@ -1,0 +1,41 @@
+.main .banner{
+	width: 100%;
+	height: 320px;
+	background: url(img/banner.jpg) no-repeat center center;
+	background-size: cover;
+	margin-top: 50px;
+	font-size: 42px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	line-height: 320px;
+}
+.main .box{
+	width: 1000px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.main .box .pic img{
+	width: 480px;
+	height: auto;
+}
+.main .box .pic .title{
+	width: 400px;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 700;
+	padding-left: 20px;
+}
+.main .box .pic .content{
+	width: 400px;
+	line-height: 30px;
+	color: #B9B8B9;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.main .box .pic img:hover{
+	transition: 1s;
+	opacity: 0.8;
+}

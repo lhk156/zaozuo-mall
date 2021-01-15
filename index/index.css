@@ -1,0 +1,1819 @@
+@charset "utf-8";
+
+html,
+body {
+	width: 100p%;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+/* 主要顶部导航，替换之前 */
+
+.topnav {
+	width: 100%;
+	height: 35px;
+	background-color: #313131;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.topnav .menu-bar>ul {
+	display: flex;
+	margin-left: 800px;
+	color: #fff;
+}
+
+.topnav .menu-bar>ul>li {
+	margin-left: 30px;
+	line-height: 33px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.topnav .menu-bar>ul>li:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.logo {
+	margin: 0 auto;
+	width: 1200px;
+	text-align: center;
+	font-size: 46px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
+.nav1 {
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+	margin: 0 auto;
+	color: black;
+}
+
+.nav1 .navUl {
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav1 .navUl li {
+	line-height: 48px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.nav1 .navUl li:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.nav1 .nav-bar {
+	position: relative;
+}
+
+.nav1 .nav-bar .house1 {
+	width: 1400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+
+}
+
+.nav1 .nav-bar .house1 li {
+	border: 0;
+	color: #333;
+	margin: auto;
+	float: left;
+	margin-left: 100px;
+}
+
+.nav1 .nav-bar .house:hover .house1 {
+	display: block;
+}
+
+.nav1 .nav-bar .house1 li:hover {
+	color: #999;
+}
+
+.nav1 .nav-bar .sofa1 {
+	width: 1400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+
+}
+
+.nav1 .nav-bar .sofa1 li {
+	border: 0;
+	color: #333;
+	margin: auto;
+	float: left;
+	margin-left: 160px;
+}
+
+.nav1 .nav-bar .sofa:hover .sofa1 {
+	display: block;
+}
+
+.nav1 .nav-bar .sofa1 li:hover {
+	color: #FFFFFF;
+}
+
+.nav1 .nav-bar .frame1 {
+	width: 1400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+
+}
+
+.nav1 .nav-bar .frame1 li {
+	border: 0;
+	color: #333;
+	margin: auto;
+	float: left;
+	margin-left: 50px;
+}
+
+.nav1 .nav-bar .frame:hover .frame1 {
+	display: block;
+}
+
+.nav1 .nav-bar .frame1 li:hover {
+	color: #999;
+}
+
+.nav1 .nav-bar .bed1 {
+	width: 1400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+
+}
+
+.nav1 .nav-bar .bed1 li {
+	border: 0;
+	color: #333;
+	margin: auto;
+	float: left;
+	margin-left: 110px;
+}
+
+.nav1 .nav-bar .bed:hover .bed1 {
+	display: block;
+}
+
+.nav1 .nav-bar .bed1 li:hover {
+	color: #999;
+}
+
+.nav1 .nav-bar .table1 {
+	width: 1400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+
+}
+
+.nav1 .nav-bar .table1 li {
+	border: 0;
+	color: #333;
+	margin: auto;
+	float: left;
+	margin-left: 170px;
+}
+
+.nav1 .nav-bar .table:hover .table1 {
+	display: block;
+}
+
+.nav1 .nav-bar .table1 li:hover {
+	color: #999;
+}
+
+.nav1 .nav-bar .lamps1 {
+	width: 1400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+
+}
+
+.nav1 .nav-bar .lamps1 li {
+	border: 0;
+	color: #333;
+	margin: auto;
+	float: left;
+	margin-left: 150px;
+}
+
+.nav1 .nav-bar .lamps:hover .lamps1 {
+	display: block;
+}
+
+.nav1 .nav-bar .lamps1 li:hover {
+	color: #999;
+}
+
+.nav1 .nav-bar .htextiles1 {
+	width: 1400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+
+}
+
+.nav1 .nav-bar .htextiles1 li {
+	border: 0;
+	color: #333;
+	margin: auto;
+	float: left;
+	margin-left: 150px;
+}
+
+.nav1 .nav-bar .htextiles:hover .htextiles1 {
+	display: block;
+}
+
+.nav1 .nav-bar .htextiles1 li:hover {
+	color: #999;
+}
+
+.nav1 .nav-bar .decoration1 {
+	width: 1400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+
+}
+
+.nav1 .nav-bar .decoration1 li {
+	border: 0;
+	color: #333;
+	margin: auto;
+	float: left;
+	margin-left: 150px;
+}
+
+.nav1 .nav-bar .decoration:hover .decoration1 {
+	display: block;
+}
+
+.nav1 .nav-bar .decoration1 li:hover {
+	color: #999;
+}
+
+.nav1 .nav-bar .tableware1 {
+	width: 1400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+
+}
+
+.nav1 .nav-bar .tableware1 li {
+	border: 0;
+	color: #333;
+	margin: auto;
+	float: left;
+	margin-left: 150px;
+}
+
+.nav1 .nav-bar .tableware:hover .tableware1 {
+	display: block;
+}
+
+.nav1 .nav-bar .tableware1 li:hover {
+	color: #999;
+}
+
+
+
+/* 设置一个版心 */
+.container1 {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/* 轮播图位置 */
+.main #carousel {
+	margin: 0 auto;
+	width: 1300px;
+	height: 400px;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	z-index: -1;
+}
+
+.main #carousel img {
+	width: 1300px;
+	height: 400px;
+	cursor: pointer;
+}
+
+.main #carousel>ul {
+	position: absolute;
+	animation: move 16s linear infinite;
+	display: flex;
+}
+
+@keyframes move {
+
+	0%,
+	10% {
+		left: 0;
+	}
+
+	20%,
+	30% {
+		left: -1300px;
+	}
+
+	40%,
+	50% {
+		left: -2600px;
+	}
+
+	60%,
+	70% {
+		left: -3900px;
+	}
+
+	80%,
+	90% {
+		left: -5200px;
+	}
+
+	100% {
+		left: -6500px;
+	}
+}
+
+/* 划过时暂停 */
+.main #carousel:hover {
+	animation-play-state: paused;
+}
+
+
+/* 造作代表作 */
+.main .masterpiece {
+	display: flex;
+	flex-direction: column;
+}
+
+.main .title {
+	margin-top: 50px;
+}
+
+.main .bigtitle {
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.main .ltitle1 {
+	font-size: 14px;
+	color: #707070;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.main .toppic {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-between;
+}
+
+.main .toppic>div {
+	width: calc((100% - 30px) / 4);
+	height: 400px;
+	text-align: center;
+	color: #313131;
+	cursor: pointer;
+}
+
+.main .toppic .lfpic {
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+.main .toppic .p1 {
+	background: url(../img/lfpic1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .toppic .p2 {
+	background: url(../img/lfpic2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .toppic .p3 {
+	background: url(../img/lfpic3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .toppic .p4 {
+	background: url(../img/lfpic4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .original {
+	position: relative;
+}
+
+.main .words {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 100px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main .words .words-cn {
+	margin: 0 auto;
+	width: 150px;
+	height: 70px;
+	border: 5px solid #000;
+	padding-top: 20px;
+	line-height: 20px;
+	font-weight: 800;
+}
+
+.main .words .words-en {
+	border-top: 1px solid #666;
+	margin-top: 130px;
+	font-weight: 700;
+}
+
+.main .original:hover .title {
+	display: none;
+}
+
+.main .original:hover .price {
+	display: none;
+}
+
+.main .original:hover .word {
+	display: none;
+}
+
+.main .original:hover .words {
+	display: block;
+}
+
+
+.main .toppic .title {
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.main .botpic .title {
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.main .original .price {
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.main .original .word {
+	margin-top: 10px;
+}
+
+.main .original .word span {
+	font-size: 14px;
+}
+
+.main .botpic {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-between;
+}
+
+.main .botpic>div {
+	width: calc((100% - 30px) / 4);
+	height: 400px;
+	text-align: center;
+	color: #313131;
+	cursor: pointer;
+}
+
+.main .botpic .tfpic {
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+.main .botpic .p5 {
+	background: url(../img/tftic1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .botpic .p6 {
+	background: url(../img/tfpic2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .botpic .p7 {
+	background: url(../img/tfpic3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .botpic .p8 {
+	background: url(../img/tfpic4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+/* 超值好物推荐 */
+.main .recommend {
+	margin-top: 100px;
+}
+
+.main .recommend .pic .Good-thing {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .recommend .pic .Good-thing {
+	margin-top: 30px;
+}
+
+.main .recommend .pic .gtitle {
+	font-size: 18px;
+	font-weight: 800;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.main .recommend .pic .gltitle {
+	width: 380px;
+	font-size: 14px;
+	color: #666666;
+	margin-top: 10px;
+}
+
+.main .recommend .gpic {
+	width: 360px;
+	height: 200px;
+}
+
+.main .recommend .pic>div {
+	cursor: pointer;
+}
+
+.main .recommend .pic .gp1 {
+	background: url(../img/gp1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .recommend .pic .gp2 {
+	background: url(../img/gp2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .recommend .pic .gp3 {
+	background: url(../img/gp3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .recommend .pic .gp4 {
+	background: url(../img/gp4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .recommend .pic .gp5 {
+	background: url(../img/gp5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .recommend .pic .gp6 {
+	background: url(../img/gp6.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .recommend .pic .gp7 {
+	background: url(../img/gp7.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .recommend .pic .gp8 {
+	background: url(../img/gp8.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .recommend .pic .gp9 {
+	background: url(../img/gp9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+/* 鼠标悬浮图片模糊,0.5秒延时 */
+.main .recommend .pic .gpic:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+
+}
+
+.main .show {
+	margin-top: 150px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .show .post {
+	cursor: pointer;
+	width: 560px;
+	height: 400px;
+	background: url(../img/post.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .show .post:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.main .show .strength {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main .show .strength .smart {
+	display: flex;
+}
+
+.main .show .strength .smart .inspiration {
+	cursor: pointer;
+	height: 200px;
+	width: 250px;
+	background: url(../img/inspiration.jpg) no-repeat center center;
+	background-size: cover;
+	margin-right: 20px;
+}
+
+.main .show .strength .smart .inspiration:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.main .show .strength .smart .dynamic {
+	cursor: pointer;
+	height: 200px;
+	width: 250px;
+	background: url(../img/dynamic.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .show .strength .smart .dynamic:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.main .show .designer {
+	cursor: pointer;
+	height: 180px;
+	width: 520px;
+	background: url(../img/designer.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .show .designer:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+/* 承诺 */
+.main .commitment {
+	height: 200px;
+	width: 100%;
+	background: url(../img/bcman.jpg) no-repeat center center;
+	background-size: cover;
+	margin-bottom: 80px;
+}
+
+.main .commitment .six {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .commitment .six>div {
+	margin-top: 28px;
+	width: 210px;
+	height: 150px;
+	cursor: pointer;
+}
+
+.main .commitment .six .ltitle {
+	font-size: 12px;
+	color: #eee;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.main .commitment .six .btitle {
+	font-size: 20px;
+	color: #fff;
+	margin-top: 10px;
+	letter-spacing: 15px;
+	font-weight: 700;
+	text-align: center;
+	padding-left: 12px;
+}
+
+.main .commitment .six .signature {
+	margin: 5px auto;
+	width: 56px;
+	height: 56px;
+	background: url(../img/llogo_2.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .signature:hover {
+	background: url(../img/llogo_10.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .europe {
+	margin: 5px auto;
+	width: 56px;
+	height: 56px;
+	background: url(../img/llogo_3.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .europe:hover {
+	background: url(../img/llogo_11.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .free {
+	margin: 5px auto;
+	width: 56px;
+	height: 56px;
+	background: url(../img/llogo_4.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .free:hover {
+	background: url(../img/llogo_12.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .deliver {
+	margin: 5px auto;
+	width: 56px;
+	height: 56px;
+	background: url(../img/llogo_5.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .deliver:hover {
+	background: url(../img/llogo_13.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .insured {
+	margin: 5px auto;
+	width: 56px;
+	height: 56px;
+	background: url(../img/llogo_6.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .insured:hover {
+	background: url(../img/llogo_14.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .return {
+	margin: 5px auto;
+	width: 56px;
+	height: 56px;
+	background: url(../img/llogo_7.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .commitment .six .return:hover {
+	background: url(../img/llogo_15.png) no-repeat center center;
+	background-size: cover;
+}
+
+/* 全品目录 */
+.main .directory1 {
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.main .settee {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.main .directory .topphoto {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .directory .topphoto>div {
+	text-align: center;
+	cursor: pointer;
+}
+
+.main .directory .topphoto .title2 {
+	font-size: 18px;
+	font-weight: 800;
+	margin-top: 10px;
+}
+
+.main .directory .topphoto .price1 {
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.main .directory .topphoto .select {
+	font-size: 12px;
+	font-weight: 700;
+	color: #999;
+	margin-top: 10px;
+}
+
+.main .directory .topphoto .photo {
+	margin: 0 auto;
+	width: 240px;
+	height: 240px;
+}
+
+/* 沙发图片 */
+.main .directory .topphoto .o1 {
+	background: url(../img/o1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .o2 {
+	background: url(../img/o2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .o3 {
+	background: url(../img/o3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .o4 {
+	background: url(../img/o4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .begain {
+	position: relative;
+}
+
+.main .directory .topphoto .begain .after {
+	width: 240px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	top: 20px;
+	display: none;
+}
+
+.main .directory .topphoto .begain .after .letter {
+	width: 120px;
+	height: 80px;
+	border: 5px solid #000;
+	margin: 30px auto;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.main .directory .topphoto .begain .after .letter-en {
+	margin-top: 100px;
+	border-top: 1px solid #999;
+	padding-top: 10px;
+}
+
+.main .directory .topphoto .begain:hover .after {
+	display: block;
+}
+
+.main .directory .topphoto .begain:hover .title2 {
+	display: none;
+}
+
+.main .directory .topphoto .begain:hover .price1 {
+	display: none;
+}
+
+.main .directory .topphoto .begain:hover .select {
+	display: none;
+}
+
+.main .directory .crtphoto {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .directory .crtphoto>div {
+	text-align: center;
+	cursor: pointer;
+}
+
+.main .directory .crtphoto .title2 {
+	font-size: 18px;
+	font-weight: 800;
+	margin-top: 10px;
+}
+
+.main .directory .crtphoto .price1 {
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.main .directory .crtphoto .select {
+	font-size: 12px;
+	font-weight: 700;
+	color: #999;
+	margin-top: 10px;
+}
+
+.main .directory .crtphoto .photo {
+	margin: 0 auto;
+	width: 240px;
+	height: 240px;
+}
+
+/* 沙发图片 */
+.main .directory .crtphoto .o5 {
+	background: url(../img/o5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .o6 {
+	background: url(../img/o6.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .o7 {
+	background: url(../img/o7.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .o8 {
+	background: url(../img/o8.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .begain {
+	position: relative;
+}
+
+.main .directory .crtphoto .begain .after {
+	width: 240px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	top: 20px;
+	display: none;
+}
+
+.main .directory .crtphoto .begain .after .letter {
+	width: 120px;
+	height: 80px;
+	border: 5px solid #000;
+	margin: 30px auto;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.main .directory .crtphoto .begain .after .letter-en {
+	margin-top: 100px;
+	border-top: 1px solid #999;
+	padding-top: 10px;
+}
+
+.main .directory .crtphoto .begain:hover .after {
+	display: block;
+}
+
+.main .directory .crtphoto .begain:hover .title2 {
+	display: none;
+}
+
+.main .directory .crtphoto .begain:hover .price1 {
+	display: none;
+}
+
+.main .directory .crtphoto .begain:hover .select {
+	display: none;
+}
+
+.main .directory .botphoto {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main .directory .botphoto>div {
+	text-align: center;
+	cursor: pointer;
+}
+
+.main .directory .botphoto .title2 {
+	font-size: 18px;
+	font-weight: 800;
+	margin-top: 10px;
+}
+
+.main .directory .botphoto .price1 {
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.main .directory .botphoto .select {
+	font-size: 12px;
+	font-weight: 700;
+	color: #999;
+	margin-top: 10px;
+}
+
+.main .directory .botphoto .photo {
+	margin: 0 auto;
+	width: 240px;
+	height: 240px;
+}
+
+/* 沙发图片 */
+.main .directory .botphoto .o9 {
+	background: url(../img/o9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .o10 {
+	background: url(../img/o10.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .o11 {
+	background: url(../img/o11.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .begain .box {
+	width: 180px;
+	height: 150px;
+	border: 10px solid #333;
+	text-align: center;
+	padding-top: 40px;
+	margin-top: 40px;
+	font-weight: 800;
+	font-size: 40px;
+	color: #666666;
+}
+
+.main .directory .botphoto .begain .box:hover {
+	border: 10px solid #999;
+}
+
+.main .directory .botphoto .begain {
+	position: relative;
+}
+
+.main .directory .botphoto .begain .after {
+	width: 240px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	top: 20px;
+	display: none;
+}
+
+.main .directory .botphoto .begain .after .letter {
+	width: 120px;
+	height: 80px;
+	border: 5px solid #000;
+	margin: 30px auto;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.main .directory .botphoto .begain .after .letter-en {
+	margin-top: 100px;
+	border-top: 1px solid #999;
+	padding-top: 10px;
+}
+
+.main .directory .botphoto .begain:hover .after {
+	display: block;
+}
+
+.main .directory .botphoto .begain:hover .title2 {
+	display: none;
+}
+
+.main .directory .botphoto .begain:hover .price1 {
+	display: none;
+}
+
+.main .directory .botphoto .begain:hover .select {
+	display: none;
+}
+
+
+
+/* 板凳图片 */
+.main .directory .topphoto .b1 {
+	background: url(../img/b1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .b2 {
+	background: url(../img/b2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .b3 {
+	background: url(../img/b3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .b4 {
+	background: url(../img/b4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .b5 {
+	background: url(../img/b5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .b6 {
+	background: url(../img/b6.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .b7 {
+	background: url(../img/b7.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .b8 {
+	background: url(../img/b8.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .b9 {
+	background: url(../img/b9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .b10 {
+	background: url(../img/b10.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .b11 {
+	background: url(../img/b11.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
+
+
+
+
+/* 柜架图片 */
+.main .directory .topphoto .g1 {
+	background: url(../img/g1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .g2 {
+	background: url(../img/g2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .g3 {
+	background: url(../img/g3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .g4 {
+	background: url(../img/g4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .g5 {
+	background: url(../img/g5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .g6 {
+	background: url(../img/g6.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .g7 {
+	background: url(../img/g7.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .g8 {
+	background: url(../img/g8.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .g9 {
+	background: url(../img/g9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .g10 {
+	background: url(../img/g10.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .g11 {
+	background: url(../img/g11.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
+
+
+
+/* 床·床具 */
+.main .directory .topphoto .c1 {
+	background: url(../img/c1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .c2 {
+	background: url(../img/c2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .c3 {
+	background: url(../img/c3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .c4 {
+	background: url(../img/c4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .c5 {
+	background: url(../img/c5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .c6 {
+	background: url(../img/c6.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .c7 {
+	background: url(../img/c7.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .c8 {
+	background: url(../img/c8.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .c9 {
+	background: url(../img/c9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .c10 {
+	background: url(../img/c10.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .c11 {
+	background: url(../img/c11.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
+/* 桌几 */
+.main .directory .topphoto .z1 {
+	background: url(../img/z1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .z2 {
+	background: url(../img/z2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .z3 {
+	background: url(../img/z3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .z4 {
+	background: url(../img/z4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .z5 {
+	background: url(../img/z5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .z6 {
+	background: url(../img/z6.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .z7 {
+	background: url(../img/z7.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .z8 {
+	background: url(../img/z8.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .z9 {
+	background: url(../img/z9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .z10 {
+	background: url(../img/z10.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .z11 {
+	background: url(../img/z11.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
+
+
+
+/* 灯具 */
+.main .directory .topphoto .d1 {
+	background: url(../img/d1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .d2 {
+	background: url(../img/d2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .d3 {
+	background: url(../img/d3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .d4 {
+	background: url(../img/d4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .d5 {
+	background: url(../img/d5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .d6 {
+	background: url(../img/d6.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .d7 {
+	background: url(../img/d7.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .d8 {
+	background: url(../img/d8.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .d9 {
+	background: url(../img/d9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .d10 {
+	background: url(../img/d10.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .d11 {
+	background: url(../img/d11.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
+
+
+
+/* 灯具 */
+.main .directory .topphoto .h1 {
+	background: url(../img/h1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .h2 {
+	background: url(../img/h2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .h3 {
+	background: url(../img/h3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .h4 {
+	background: url(../img/h4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .h5 {
+	background: url(../img/h5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .h6 {
+	background: url(../img/h6.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .h7 {
+	background: url(../img/h7.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .h8 {
+	background: url(../img/h8.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .h9 {
+	background: url(../img/h9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .h10 {
+	background: url(../img/h10.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .h11 {
+	background: url(../img/h11.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
+
+
+/* 装饰 */
+.main .directory .topphoto .zs1 {
+	background: url(../img/zs1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .zs2 {
+	background: url(../img/zs2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .zs3 {
+	background: url(../img/zs3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .topphoto .zs4 {
+	background: url(../img/zs4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .zs5 {
+	background: url(../img/zs5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .zs6 {
+	background: url(../img/zs6.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .zs7 {
+	background: url(../img/zs7.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .crtphoto .zs8 {
+	background: url(../img/zs8.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .zs9 {
+	background: url(../img/zs9.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .zs10 {
+	background: url(../img/zs10.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .directory .botphoto .zs11 {
+	background: url(../img/zs11.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
+
+
+.main .container1 .featured {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 24px
+}
+
+.main .container1 .featured .featured-title {
+	line-height: 30px;
+	font-weight: 800;
+}
+
+.main .container1 .featured .featured-pic {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+/* 图片滑过效果 */
+.main .container1 .featured .featured-pic>div:hover {
+	transition: 1s;
+	opacity: 0.8;
+}
+
+.main .container1 .featured .featured-pic>div{
+	cursor: pointer;
+}
+.main .container1 .featured .featured-pic .jx1 {
+	width: 200px;
+	height: 200px;
+	background: url(../img/jx1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .container1 .featured .featured-pic .jx2 {
+	width: 200px;
+	height: 200px;
+	background: url(../img/jx2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .container1 .featured .featured-pic .jx3 {
+	width: 200px;
+	height: 200px;
+	background: url(../img/jx3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .container1 .featured .featured-pic .jx4 {
+	width: 200px;
+	height: 200px;
+	background: url(../img/jx4.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .container1 .featured .featured-pic .jx5 {
+	width: 200px;
+	height: 200px;
+	background: url(../img/jx5.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.main .container1 .featured .look {
+	margin-top: 30px;
+	font-size: 16px;
+	border: 1px solid #000;
+	line-height: 50px;
+	margin: 30px auto 0 auto;
+	width: 400px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.main .container1 .featured .look:hover {
+	background-color: #1B1B1B;
+	color: #fff;
+}
+
+
+.main .container1 .allCountry {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 24px
+}
+
+.main .container1 .allCountry .allCountry-title {
+
+	line-height: 30px;
+	font-weight: 800;
+}
+
+.main .container1 .allCountry .allCountry-pic {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.main .container1 .allCountry .allCountry-pic>div {
+	cursor: pointer;
+	width: 540px;
+	height: 400px;
+
+}
+
+.main .container1 .allCountry .allCountry-pic .gn1 {
+
+	width: 540px;
+	height: 320px;
+	background: url(../img/floor1501.jpg) no-repeat center center;
+	background-size: cover;
+
+}
+
+.main .container1 .allCountry .allCountry-pic .gn2 {
+
+	width: 510px;
+	height: 320px;
+	background: url(../img/floor1502.jpg) no-repeat center center;
+	background-size: cover;
+
+}
+
+.main .container1 .allCountry .allCountry-pic .gn1:hover {
+
+	opacity: 0.7;
+
+}
+
+.main .container1 .allCountry .allCountry-pic .gn2:hover {
+
+	opacity: 0.7;
+
+}
+
+.main .container1 .allCountry .allCountry-pic .gn1-title {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.main .container1 .allCountry .allCountry-pic .gn2-title {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.main .container1 .allCountry .look {
+	margin-top: 30px;
+	font-size: 16px;
+	border: 1px solid #000;
+	line-height: 50px;
+	margin: 30px auto 0 auto;
+	width: 400px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.main .container1 .allCountry .look:hover {
+	background-color: #1B1B1B;
+	color: #fff;
+}
+
+/* 侧边栏 */
+.main .aside {
+	position: fixed;
+	width: 60px;
+	height: 290px;
+	right: 0;
+	background-color: #fff;
+	top: 200px;
+	cursor: pointer;
+}
+
+.main .aside .aside-pic {
+	width: 60px;
+	height: 100px;
+	background: url(../img/newMan.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main .aside .aside-dwload {
+	width: 30px;
+	height: 40px;
+	background: url(../img/phone.png) no-repeat center center;
+	background-size: cover;
+	margin: 10px auto;
+}
+
+.main .aside .aside-content {
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px solid #333;
+	width: 50px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.main .aside .aside-set {
+	width: 40px;
+	height: 40px;
+	background: url(../img/set.png) no-repeat center center;
+	background-size: cover;
+	margin: 10px auto;
+}
+
+.main .aside .goTop {
+	width: 60px;
+	height: 70px;
+	background-color: #fff;
+}
+
+.main .aside .aside-gotop {
+	width: 20px;
+	height: 30px;
+	background: url(../img/gotop.png) no-repeat center center;
+	background-size: cover;
+	margin: 10px auto;
+	background-color: #fff;
+}
+
+/* 用户登录之后页面发生小变化 */
+
+#afterLog {
+	display: none;
+	position: fixed;
+	top: 50px;
+	right: 100px;
+	width: 140px;
+	height: 300px;
+	line-height: 32px;
+	background-color: #000000;
+	opacity: 0.8;
+	color: #fff;
+	text-align: center;
+	z-index: 1;
+	cursor: pointer;
+}

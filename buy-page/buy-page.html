@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>订单确认</title>
+		<!-- 引入一个框架样式 -->
+		<link rel="stylesheet" type="text/css" href="../assects/css/public.css" />
+		<!-- 引入地址js -->
+		<script src="./address.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 标题小图标 -->
+		<link rel="icon" type="image/x-icon" href="../img/logo.ico" />
+		<!-- 引入jQuery -->
+		<script src="../assects/js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 引入商品列表的数据 -->
+		<script src="../house-all/data.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 引入自己的样式 -->
+		<link rel="stylesheet" type="text/css" href="./buy-page.css" />
+		<!-- 引入自己的js -->
+		<script src="./buy-page.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<!-- 顶部导航 -->
+		<div class="nav">
+			<!-- logo图标 -->
+			<div class="logo"></div>
+			<!-- 稍微靠左面的导航 -->
+			<div class="nav-bar">
+				<ul class="grp">
+					<a href="../index/index.html">
+						<li>首页</li>
+					</a>
+					<li class="house">
+						全屋系列
+						<!-- 全屋系列 -->
+						<ol class="house1">
+							<a href="../house-all/house-all.html">
+								<li>全部</li>
+							</a>
+							<li>美术馆系列</li>
+							<li>画板系列</li>
+							<li>山雪系列</li>
+							<li>青山系列</li>
+							<li>comso系列</li>
+							<li>朱雀系列</li>
+						</ol>
+					</li>
+					<li class="sofa">
+						沙发·椅凳
+						<!-- 沙发·椅凳 -->
+						<ol class="sofa1">
+							<li>全部</li>
+							<li>沙发</li>
+							<li>休闲椅</li>
+							<li>板凳</li>
+							<li>坐墩</li>
+						</ol>
+					</li>
+					<li class="frame">
+						框架
+						<!-- 框架 -->
+						<ol class="frame1">
+							<li>全部</li>
+							<li>电视柜</li>
+							<li>书柜·书架</li>
+							<li>衣柜</li>
+							<li>餐边柜</li>
+							<li>斗柜</li>
+							<li>鞋柜</li>
+							<li>玄关柜</li>
+							<li>床头柜</li>
+							<li>推车</li>
+							<li>置物架·储物格</li>
+							<li>衣帽架</li>
+						</ol>
+					</li>
+					<li class="bed">
+						床·床具
+						<!-- 床·床具 -->
+						<ol class="bed1">
+							<li>全部</li>
+							<li>床</li>
+							<li>床垫</li>
+							<li>床头柜</li>
+							<li>床尾凳</li>
+							<li>床品</li>
+							<li>被褥</li>
+							<li>枕芯</li>
+						</ol>
+					</li>
+					<li class="table">
+						桌几
+						<!-- 桌几 -->
+						<ol class="table1">
+							<li>全部</li>
+							<li>餐桌·书桌</li>
+							<li>茶几</li>
+							<li>边桌</li>
+							<li>梳妆台</li>
+						</ol>
+					</li>
+					<li class="lamps">
+						灯具
+						<!-- 灯具 -->
+						<ol class="lamps1">
+							<li>全部</li>
+							<li>地灯</li>
+							<li>吊灯</li>
+							<li>台灯</li>
+							<li>吸顶灯</li>
+							<li>台灯</li>
+						</ol>
+					</li>
+					<li class="htextiles">
+						家纺·床品
+						<!-- 家纺·床品 -->
+						<ol class="htextiles1">
+							<li>全部</li>
+							<li>地灯</li>
+							<li>吊灯</li>
+							<li>台灯</li>
+							<li>吸顶灯</li>
+							<li>台灯</li>
+						</ol>
+					</li>
+					<li class="decoration">
+						装饰·收纳
+						<!-- 装饰·收纳 -->
+						<ol class="decoration1">
+							<li>全部</li>
+							<li>墙镜</li>
+							<li>花瓶</li>
+							<li>摆件</li>
+							<li>收纳</li>
+							<li>装饰画</li>
+						</ol>
+					</li>
+					<li class="tableware">
+						餐具·水具
+						<!-- 餐具·水具 -->
+						<ol class="tableware1">
+							<li>全部</li>
+							<li>餐具</li>
+							<li>杯子</li>
+							<li>托盘·果盘</li>
+							<li>食品储物</li>
+						</ol>
+					</li>
+				</ul>
+
+			</div>
+			<!-- 稍微靠右的导航 -->
+			<div class="menu-bar">
+				<ul>
+					<a href="../other/national-stores/national-stores.html">
+						<li class="address">
+							<div class="pic"></div>
+							实体店
+						</li>
+					</a>
+					<a href="../other/understand-zaozuo/understand-zaozuo.html">
+						<li>了解造作新家</li>
+					</a>
+					<a href="../other/collaboration/collaboration.html">
+						<li>商业合作</li>
+					</a>
+					<!-- 登录页面 -->
+					<a href="../log/log.html">
+						<li class="man"></li>
+					</a>
+					<!-- 购物车 -->
+					<a href="../cart/cart.html">
+						<li class="sart"></li>
+					</a>
+				</ul>
+			</div>
+		</div>
+		<!-- 主要内容 -->
+		<div class="main">
+			<!-- 收货地址 -->
+			<div class="container1">
+				<div class="address">
+					收货地址
+				</div>
+				<div class="add">
+					<div class="addNewAdd"></div>
+					<div class="addAddress">
+						<img src="./buy-page-img/add.png">
+						<span>添加收货地址</span>
+					</div>
+				</div>
+				
+			</div>
+			<!-- 灰条 -->
+			<div class="grayColor"></div>
+			<!-- 商品清单 -->
+			<div class="container1">
+				<div class="checkList">
+					商品清单
+				</div>
+				<div class="single">
+					<span>单品</span>
+					<div class="singleBox">
+						
+					</div>
+				</div>
+			</div>
+			<!-- 灰条 -->
+			<div class="grayColor"></div>
+			<!-- 发票信息 -->
+			<div class="container1">
+				<div class="invoice">
+					<span>发票信息</span>
+				</div>
+				<div class="invoice-get">
+					<img src="./buy-page-img/checkBox.png">
+					<span>我要开发票</span>
+				</div>
+				<!-- 订单备注 -->
+				<div class="remarks">
+					<span>订单备注</span>
+					<br>
+					<textarea>
+
+					</textarea>
+				</div>
+			</div>
+			<!-- 灰条 -->
+			<div class="grayColor"></div>
+			<!-- 结算付款 -->
+			<div class="container1">
+				<div class="payment">
+					<div>
+						<span>商品合计</span>
+						<span class="total"></span>
+					</div>
+					<div>
+						<span>活动折扣</span>
+						<span class="discount"></span>
+					</div>
+					<div>
+						<span>运费</span>
+						<span class="ship">￥50</span>
+					</div>
+					<div>
+						<span>实付</span>
+						<span class="actPaid"></span>
+					</div>
+					<div class="check">
+						<input type="checkbox" name="" id="" value="" />
+						<i>我已同意</i><i>《造作物流及售后协议》</i>
+					</div>
+				</div>
+			</div>
+			<!-- 结算条 -->
+			<div class="payment-nav">
+				<span>实付:<i class="actPaid"></i></span>
+				<div class="payment-button">结算</div>
+			</div>
+
+
+			<!-- 添加收货地址 -->
+
+			<div class="bcBox1" style="display: none;">
+				<div class="shopAddress">
+					<span>添加收货地址</span>
+					<form id="Form1" method="post" runat="server">
+						<FONT face="宋体">
+						</FONT>
+						<P>
+							<font face="宋体">所在地址：
+								<SELECT id="province" runat="server" NAME="province">
+								</SELECT>
+								<SELECT id="city" runat="server" NAME="city">
+								</SELECT>
+								<SELECT id="county" runat="server" NAME="city">
+								</SELECT>
+							</font>
+						</P>
+				
+						<!--js初始化函数-->
+						<SCRIPT language="javascript">
+							setup()
+					</SCRIPT>
+						<p>街道地址：
+							<input type="text" name="road" size="30" class="street">
+						</p>
+						<p>门牌号码：
+							<input type="text" name="num" size="10" class="houseNumber">
+						</p>
+					</form>
+					<span>收货人信息</span>
+					<p class="product-info">
+						<input type="text" name="" id="name" value="" placeholder="收货人姓名" />
+						<input type="text" name="" id="phonenum" value="" placeholder="收货人手机号码" />
+					</p>
+					<p class="checkBox">
+						<input type="checkbox" name="" id="checkBox1" value="" />
+						<i>设为默认地址</i>
+					</p>
+					<div class="save">
+						保存并使用
+					</div>
+				</div>
+				<div class="prompt">
+					您的信息不完善
+				</div>
+			</div>
+			
+			<!-- 我要开发票 -->
+			<div class="bcBox" style="display: none;">
+				<div class="invoice-info">
+					<div class="box">
+						<div class="info">
+							发票信息
+						</div>
+						<table border="0" cellspacing="" cellpadding="">
+							<tr>
+								<td>发票类型</td>
+								<td><input type="radio" name="1" />普通发票</td>
+								<td><input type="radio" name="1" />专用发票</td>
+							</tr>
+							<tr>
+								<td>发票抬头</td>
+								<td><input type="radio" name="2" />个人</td>
+								<td><input type="radio" name="2" />单位</td>
+							</tr>
+							<tr>
+								<td>发票内容</td>
+								<td colspan="2">商品明细</td>
+							</tr>
+						</table>
+						<ul>
+							<li>
+								发票会在商品发货后15-30个工作日单独寄出
+							</li>
+							<li>
+								购买新家卡时只可开具普通发票，发票内容为预付卡销售和充值
+							</li>
+							<li>
+								开票金额为订单实际支付金额，不含新家卡抵扣金额
+							</li>
+						</ul>
+						<div class="sure">
+							确认保存
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部边栏 -->
+		<div class="footer">
+			<div class="container">
+				<div class="footerlogo">
+					<div class="pic"></div>
+					<span>zaozuo.com</span>
+					<!-- 微信按钮 -->
+					<div class="weixin"></div>
+				</div>
+				<div class="content">
+					<div class="about">
+						<div class="title">关于造作新家</div>
+						<ul class="cnt">
+							<li>团队介绍</li>
+							<li>设计师团</li>
+							<li>媒体报道</li>
+							<li>加入造作新家</li>
+							<li>Designer Hiring</li>
+						</ul>
+					</div>
+					<div class="service">
+						<div class="title">服务支持</div>
+						<ul class="cnt">
+							<li>服务保障</li>
+							<li>用户协议</li>
+							<li>物流售后服务</li>
+						</ul>
+					</div>
+					<div class="cooperation">
+						<div class="title">商业合作</div>
+						<ul class="cnt">
+							<li>集合采购</li>
+							<li>伙伴加盟</li>
+							<li>品牌合作</li>
+							<li>媒体合作</li>
+							<li>设计师入驻</li>
+						</ul>
+					</div>
+				</div>
+				<div class="phone">
+					<div class="title">联系我们</div>
+					<div class="number">400-6636-926（9:00~21:00）</div>
+					<div class="online">在线客服</div>
+					<div class="newhome">造作新家全国实体店</div>
+				</div>
+
+			</div>
+			<div class="footerwords">
+				Copyright © 2018 zaozuo.com Inc.All Rights Reserved. 北京造化科技有限公司<br>
+
+				版权所有&nbsp; 京ICP备14049641号-1&nbsp; 增值电信业务经营许可证：京ICP证150098号<br>
+
+				造作新家官网-全球设计师创作家居品牌<br>
+
+				营业执照
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,680 @@
+
+i{
+	font-style: normal;
+}
+/* 块元素隐藏 */
+.active{
+	display: none;
+}
+/* 版心 */
+.container1{
+	width: 1100px;
+	margin: 0 auto;
+}
+/* 隐藏的导航 */
+.hiddenNav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	justify-content: space-between;
+	z-index: 1;
+}
+.hiddenNav .left{
+	float: left;
+}
+.hiddenNav .left ul{
+	margin-left: 80px;
+	width: 400px;
+	display : flex;
+	color : #999;
+	line-height : 50px;
+	justify-content: space-around;
+	cursor: pointer;
+	font-size: 14px;
+}
+.hiddenNav .left ul i{
+	position: relative;
+	top:-10px;
+}
+.hiddenNav .right{
+	float: right;
+	margin-right: 200px;
+	display: flex;
+}
+.hiddenNav .right .addCart{
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	height: 30px;
+	width: 100px;
+	background-color: #E56A69;
+	border-radius: 3px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.hiddenNav .right .cart{
+	color: #fff;
+	font-size: 14px;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	margin: 10px 0 auto 20px;
+	border: 1px solid #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+/* 侧边栏 */
+.aside{
+	width: 70px;
+	height: 380px;
+	background-color: #fff;
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	z-index: 1;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+.aside>div{
+	margin-top: 20px;
+}
+.aside>div>div{
+	line-height: 30px;
+}
+.aside img{
+	width: 28px;
+}
+/* 主要内容 */
+.main .proStyle{
+	width: 100%;
+	height: 500px;
+	margin-top: 100px;
+	display: flex;
+}
+.main .proStyle .proPic img{
+	width: 600px;
+	height: 400px;
+}
+.main .proStyle .proSpace{
+	width: 400px;
+	height: 450px;
+	margin-left: 100px;
+	font-size: 24px;
+}
+.main .proStyle .proSpace>div{
+	margin-top: 20px;
+}
+.main .proStyle .proSpace .proSpace-price{
+	color: rgba(255,0,0,0.8);
+}
+.main .proStyle .proSpace .proSpace-link{
+	font-size: 14px;
+	text-align: center;
+	color: #eee;
+	background-color: #E56A69;
+	width: 350px;
+	height: 35px;
+	line-height: 35px;
+}
+.main .proStyle .proSpace .link2{
+	margin-left: 30px;
+	line-height: 20px;
+	text-align: left;
+	height: 70px;
+	width: 300px;
+	color: #333;
+	background-color: #fff;
+}
+.main .proSpace .proSpace-color{
+	margin: 20px 0;
+	display: flex;
+}
+.main .proSpace .proSpace-color>li{
+	font-size: 18px;
+	line-height: 40px;
+	margin: 0 20px;
+	cursor: pointer;
+}
+.main .proSpace .proSpace-color>li.click{
+	width: 40px;
+	height: 40px;
+	border: 4px solid #000000;
+}
+.main .proSpace .proSpace-color>li>img{
+	width: 40px;
+}
+
+.main .proStyle .proSpace .proSpace-style{
+	display: flex;
+}
+.main .proStyle .proSpace .proSpace-style>li{
+	margin-left: 25px;
+	font-size: 18px;
+	line-height: 30px;
+	cursor: pointer;
+	text-align: center;
+}
+.main .proSpace .proSpace-style>li.click{
+	width: 60px;
+	height: 30px;
+	border: 2px solid #000000;
+}
+.main .proSpace-num{
+	width: 80px;
+	height: 50px;
+	border: 1px solid #000000;
+	display: flex;
+}
+.main .proSpace-num .number{
+	width: 70%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #000;
+}
+.main .proSpace-num .rgt{
+	width: 30%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+.main .proSpace-choose{
+	display: flex;
+}
+.main .proSpace-choose .proSpace-num .rgt .add{
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border-bottom: 2px solid #000;
+}
+.main .proSpace-choose .proSpace-num .rgt .less{
+	width: 100%;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+}
+.main .proSpace-choose .buy{
+	text-align: center;
+	line-height: 50px;
+	width: 120px;
+	height: 50px;
+	border: 2px solid #000000;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.main .proSpace-choose .addCart{
+	text-align: center;
+	line-height: 50px;
+	width: 120px;
+	height: 50px;
+	background-color: #000000;
+	color: #fff;
+	margin-left: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+
+.main .bc1{
+	width: 100%;
+	height: 425px;
+	background: url(./productimg/bc1.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 1px;
+	display: flex;
+}
+.main .bc1 .lft{
+	margin-left: 200px;
+	margin-top: 100px;
+	color: #fff;
+}
+.main .bc1 .luca{
+	width: 105px;
+	height: 105px;
+	background: url(./productimg/Luca-Nichetto.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc1 .luca-name{
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+.main .bc1 .luca-cnt{
+	font-size: 22px;
+	margin-top: 10px;
+}
+.main .bc1 .luca-more{
+	font-size: 16px;
+	margin-top: 20px;
+	width: 80px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border: 2px solid #fff;
+	border-radius: 20px;
+}
+.main .bc1 .rgt{
+	font-size: 12px;
+	color: #eee;
+	width: 400px;
+	height: 300px;
+	line-height: 24px;
+	margin: 200px 0 0 250px;
+}
+.main .bgd{
+	width: 100%;
+	height: 600px;
+	background: url(./productimg/bc2.jpg) no-repeat center center;
+	background-size: cover;
+	margin: 30px 0 30px 0 ;
+	padding: 1px;
+	opacity: 0.8;
+}
+.main .bc3{
+	height: 500px;
+	background: url(./productimg/bc3.jpg) no-repeat center center;
+	background-size: cover;	
+}
+.main .word1{
+	color: #fff;
+	font-size: 38px;
+	text-align: left;
+	margin-top: 380px;
+	margin-left: 180px;
+}
+.main .word2{
+	width: 900px;
+	color: #fff;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 180px;
+	margin-top: 20px;
+}
+.main .bc4{
+	background: url(./productimg/bc4.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc5{
+	background: url(./productimg/bc5.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc6{
+	background: url(./productimg/bc6.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc7{
+	background: url(./productimg/bc7.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc8{
+	background: url(./productimg/bc8.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc9{
+	background: url(./productimg/bc9.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc10{
+	background: url(./productimg/bc10.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc11{
+	background: url(./productimg/bc11.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc12{
+	background: url(./productimg/bc12.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc13{
+	background: url(./productimg/bc13.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc14{
+	background: url(./productimg/bc14.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc14 .letter1{
+	width: 240px;
+	height: 100px;
+	font-size: 30px;
+	margin-left: 160px;
+	margin-top: 180px;
+}
+.main .bc14 .letter2{
+	width: 240px;
+	height: 100px;
+	font-size: 18px;
+	margin-left: 160px;
+	margin-top: 30px;
+}
+.main .bc15{
+	background: url(./productimg/bc15.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	color: #FFFFFF;
+}
+.main .bc15 .letter1{
+	
+	width: 400px;
+	height: 100px;
+	font-size: 30px;
+	margin: auto;
+	margin-top: 180px;
+}
+.main .bc15 .letter2{
+	width: 600px;
+	height: 100px;
+	font-size: 18px;
+	margin: auto;
+}
+.main .bc16{
+	background: url(productimg/bc16.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc16 .letter1{
+	width: 240px;
+	height: 100px;
+	font-size: 30px;
+	margin-left: 160px;
+	margin-top: 180px;
+}
+.main .bc16 .letter2{
+	width: 240px;
+	height: 100px;
+	font-size: 18px;
+	margin-left: 160px;
+	margin-top: 30px;
+}
+.main .bc17{
+	background: url(productimg/bc17.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc18{
+	background: url(productimg/bc18.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc19{
+	background: url(productimg/bc19.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .sentence1{
+	width: 400px;
+	height: 50px;
+	font-size: 30px;
+	margin-left: 100px;
+	margin-top: 420px;
+}
+.main .sentence2{
+	width: 600px;
+	height: 50px;
+	font-size: 14px;
+	margin-left: 100px;
+}
+.main .bc19 span{
+	display: block;
+	width: 140px;
+	height: 24px;
+	font-size: 14px;
+	margin-left: 100px;
+	border: 1px solid #000;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 24px;
+	cursor: pointer;
+}
+.main .bc19 img{
+	width: 14px;
+}
+.main .bc19Hidden{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main .bc19Hidden img{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main .bc19Hidden p{
+	font-size: 14px;
+	margin: 20px;
+}
+.main .bc19Hidden span{
+	display: block;
+	margin: 20px auto;
+	width: 70px;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #000;
+	text-align: center;
+	border-radius: 13px;
+	cursor: pointer;
+}
+
+.main .bc20{
+	background: url(productimg/bc20.png) no-repeat center center;
+	background-size: cover;
+}
+.main .bc21{
+	background: url(./productimg/bc21.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc22{
+	height: 400px;
+	background: url(./productimg/bc22.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc23{
+	height: 400px;
+	background: url(./productimg/bc23.jpg) no-repeat center center;
+	background-size: cover;
+}
+.main .bc23 .sentence3{
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	margin-top: 180px;
+}
+.main .bc23 span{
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	width: 160px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.main .bc23 img{
+	width: 16px;
+}
+.main .bc23Hidden{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main .bc23Hidden img{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main .bc23Hidden p{
+	font-size: 14px;
+	margin: 20px;
+}
+.main .bc23Hidden span{
+	display: block;
+	margin: 20px auto;
+	width: 70px;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #000;
+	text-align: center;
+	border-radius: 13px;
+	cursor: pointer;
+}
+
+/* 造作官方推荐组合 */
+
+.main .recommend{
+	background-color: #F6F6F6;
+}
+.main .recommend .recommend-title{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 20px auto;
+	
+}
+.main .recommend .recommend-box{
+	width: 100%;
+	height: 240px;
+	background-color: #fff;
+	margin: 40px;
+	display: flex;
+}
+.main .recommend .recommend-box img{
+	width: 140px;
+}
+.main .recommend .recommend-box .lft{
+	display: flex;
+	margin: 20px;
+	width: 70%;
+	height: 200px;
+	border-right: 1px solid #999;
+}
+.main .recommend .recommend-box .lft .add{
+	margin-top: 100px;
+}
+.main .recommend .recommend-box .lft>div{
+	margin: 20px;
+	color: #000000;
+	text-align: center;
+}
+.main .recommend .recommend-box .lft>div .titleR{
+	font-size: 14px;
+}
+.main .recommend .recommend-box .rgt{
+	margin-top: 60px;
+	margin-left: 30px;
+	line-height: 35px;
+}
+.main .recommend .recommend-box .rgt .reTitle{
+	font-size: 14px;
+	font-size: 600;
+}
+.main .recommend .recommend-box .rgt .rePrice span{
+	color: #EB8B8B;
+	font-size: 18px;
+	font-weight: 700;
+}
+.main .recommend .recommend-box .rgt .addCart{
+	width: 100px;
+	height: 35px;
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	cursor: pointer;
+}
+
+/* 设计师建议您这样搭配 */
+.main .match {
+	margin: 20px 0;
+}
+.main .match .match-title{
+	font-size: 24px;
+	margin: auto;
+	text-align: center;
+	font-weight: 700;
+}
+.main .match>.container1{
+	display: flex;
+	text-align: center;
+}
+.main .match .container1>div{
+	width: 25%;
+}
+.main .match .container1 img{
+	width: 80%;
+	height: auto;
+}
+.main .match .container1 .matchTitle{
+	padding-top: 18px;
+}
+.main .match .container1 .matchPrice{
+	padding-top: 14px;
+	color: #666;
+	font-size: 14px;
+}
+.main .match .container1 .matchChoose{
+	padding-top: 10px;
+	font-size: 12px;
+	color: #666;
+}
+.main .match .container1 img:hover{
+	opacity: 0.8;
+}
+.main .commitment{
+	width: 100%;
+	height: auto;
+	background: url(productimg/commitmentbc.jpg) no-repeat center center;
+	background-size: auto;
+	margin-bottom: 50px;
+}
+.main .commitment .comTitle{
+	width: 100%;
+	font-size: 26px;
+	color: #fff;
+	text-align: center;
+	line-height: 180px;
+}
+.main .commitment .container1{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	color: #fff;
+}
+.main .commitment img{
+	width: 48px;
+}
+.main .commitment .crt{
+	line-height: 50px;
+	font-size: 14px;
+}
+.main .commitment .bot{
+	line-height: 30px;
+	font-size: 20px;
+}
+.main .commitment .container1>div{
+	height: 200px;
+	cursor: pointer;
+}
+.main .postP{
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+}
+.main .postP ul{
+	display: flex;
+	width: 240px;
+	margin: 0 auto;
+}
+.main .postP ul>li{
+	margin:20px;
+	padding-bottom: 20px;
+	cursor: pointer;
+}
+
+.main .postP ul li.te{
+	border-bottom: 3px solid #000;
+}

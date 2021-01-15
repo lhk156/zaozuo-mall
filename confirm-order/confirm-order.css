@@ -1,0 +1,152 @@
+.main{
+	display: flex;
+	width: 800px;
+	margin: 100px auto;
+	
+}
+.main .payment-method{
+	width: 1000px;
+	min-height: 300px;
+	margin: 100px auto;
+	padding: 1px;
+}
+.main .payment-method .paymentTitle{
+	font-weight: 700;
+	color: #444;
+}
+
+.main .pay{
+	width: 140px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.main .pay>div{
+	line-height: 20px;
+}
+.main .pay .checkBox{
+	cursor: pointer;
+	line-height: 16px;
+	text-align: center;
+	color: #fff;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,0.8);
+}
+.main .pay .name1{
+	margin-top: -5px;
+	width: 40px;
+	height: 30px;
+	background: url(./img/pic.png) no-repeat center center;
+	background-position: -40px 0;
+}
+.main .pay .name2{
+	margin-top: -5px;
+	width: 40px;
+	height: 30px;
+	background: url(./img/pic.png) no-repeat center center;
+	background-position: -40px -60px;
+}
+.main .pay .name3{
+	margin-top: -5px;
+	width: 40px;
+	height: 30px;
+	background: url(./img/pic.png) no-repeat center center;
+	background-position: -40px -150px;
+}
+.main .pay .paystyle{
+	font-weight: 700;
+	color: #444;
+	font-size: 14px;
+}
+.main .Pay{
+	margin-top: 50px;
+	font-weight: 700;
+	color: #444;
+}
+.main .money{
+	font-size: 26px;
+	margin-left: 20px;
+	margin-top: 40px;
+	font-weight: 700;
+}
+.main .sure{
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 30px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #000000;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.checkBoxChange{
+	background-color: #5BB688;
+}
+.vxpay{
+	display: none;
+	margin-top: 20px;
+}
+.vxpay img{
+	width: 300px;
+}
+.main .message{
+	margin-top: 100px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #444444;
+}
+.main .message .messageTitle{
+	font-weight: 700;
+	color: #444;
+	font-size: 18px;
+}
+.main .message .pic{
+	display: flex;
+	justify-content: space-around;
+	line-height: 150px;
+}
+.main .message .pic .title{
+	width: 200px;
+}
+.main .message .pic img{
+	width: 150px;
+}
+.main .message .haveAddress{
+	width: 150px;
+	font-weight: 700;
+	font-size: 18px;
+}
+/* 提示弹窗 */
+.main .choseAlert{
+	width: 300px;
+	height: 50px;
+	background-color: #666;
+	color : #5BB688;
+	position: fixed;
+	top:300px;
+	left: 500px;
+	text-align: center;
+	line-height: 50px;
+	display: none;
+	cursor: pointer;
+}
+/* 成功弹窗 */
+.main .paySuc{
+	width: 300px;
+	height: 50px;
+	background-color: #666;
+	color : #5BB688;
+	position: fixed;
+	top:300px;
+	left: 500px;
+	text-align: center;
+	line-height: 50px;
+	display: none;
+	cursor: pointer;
+}

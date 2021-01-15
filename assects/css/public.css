@@ -1,0 +1,484 @@
+@charset "utf-8";
+
+html,
+body {
+	width: 100p%;
+	height: 100%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.nav {
+	width: 100%;
+	height: 50px;
+	background-color: #313131;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.nav>div {
+	float: left;
+}
+
+.nav .logo {
+	width: 30px;
+	height: 30px;
+	background: url(../../img/logo.png) no-repeat center center;
+	background-size: cover;
+	margin-top: 10px;
+	margin-left: 60px;
+	cursor: pointer;
+}
+
+.nav ul {
+	display: flex;
+}
+
+.nav ul li {
+	line-height: 48px;
+	font-size: 14px;
+	color: #eee;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.nav ul li:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.nav .menu-bar ul {
+	margin-left: 30px;
+}
+
+.nav .menu-bar .address {
+	display: flex;
+}
+
+.nav .menu-bar .pic {
+	width: 16px;
+	height: 16px;
+	background: url(../../img/address.png) no-repeat center center;
+	background-size: cover;
+	margin-top: 18px;
+	margin-right: 5px;
+}
+
+.nav .menu-bar .man {
+	width: 25px;
+	height: 25px;
+	background: url(../../img/man.png) no-repeat center center;
+	background-size: cover;
+	margin-left: 70px;
+	margin-top: 15px;
+	border: 0;
+}
+
+.nav .menu-bar .man:hover {
+	background: url(../../img/hman.png) no-repeat center center;
+	background-size: cover;
+}
+
+.nav .menu-bar .sart {
+	width: 25px;
+	height: 25px;
+	background: url(../../img/sart.png) no-repeat center center;
+	background-size: cover;
+	margin-left: 50px;
+	margin-top: 15px;
+	border: 0;
+}
+
+.nav .menu-bar .sart:hover {
+	background: url(../../img/hsart.png) no-repeat center center;
+	background-size: cover;
+}
+
+.nav .nav-bar {
+	position: relative;
+}
+
+.nav .nav-bar .house1 {
+	width: 1200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	background-color: rgba(49, 49, 49, 0.8);
+	display: none;
+
+}
+
+.nav .nav-bar .house1 li {
+	border: 0;
+	color: #bbb;
+	margin: auto;
+	float: left;
+	margin-left: 100px;
+}
+
+.nav .nav-bar .house:hover .house1 {
+	display: block;
+}
+
+.nav .nav-bar .house1 li:hover {
+	color: #FFFFFF;
+}
+
+.nav .nav-bar .sofa1 {
+	width: 1200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	background-color: rgba(49, 49, 49, 0.8);
+	display: none;
+
+}
+
+.nav .nav-bar .sofa1 li {
+	border: 0;
+	color: #bbb;
+	margin: auto;
+	float: left;
+	margin-left: 160px;
+}
+
+.nav .nav-bar .sofa:hover .sofa1 {
+	display: block;
+}
+
+.nav .nav-bar .sofa1 li:hover {
+	color: #FFFFFF;
+}
+
+.nav .nav-bar .frame1 {
+	width: 1200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	background-color: rgba(49, 49, 49, 0.8);
+	display: none;
+
+}
+
+.nav .nav-bar .frame1 li {
+	border: 0;
+	color: #bbb;
+	margin: auto;
+	float: left;
+	margin-left: 50px;
+}
+
+.nav .nav-bar .frame:hover .frame1 {
+	display: block;
+}
+
+.nav .nav-bar .frame1 li:hover {
+	color: #FFFFFF;
+}
+
+.nav .nav-bar .bed1 {
+	width: 1200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	background-color: rgba(49, 49, 49, 0.8);
+	display: none;
+
+}
+
+.nav .nav-bar .bed1 li {
+	border: 0;
+	color: #bbb;
+	margin: auto;
+	float: left;
+	margin-left: 110px;
+}
+
+.nav .nav-bar .bed:hover .bed1 {
+	display: block;
+}
+
+.nav .nav-bar .bed1 li:hover {
+	color: #FFFFFF;
+}
+
+.nav .nav-bar .table1 {
+	width: 1200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	background-color: rgba(49, 49, 49, 0.8);
+	display: none;
+
+}
+
+.nav .nav-bar .table1 li {
+	border: 0;
+	color: #bbb;
+	margin: auto;
+	float: left;
+	margin-left: 170px;
+}
+
+.nav .nav-bar .table:hover .table1 {
+	display: block;
+}
+
+.nav .nav-bar .table1 li:hover {
+	color: #FFFFFF;
+}
+
+.nav .nav-bar .lamps1 {
+	width: 1200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	background-color: rgba(49, 49, 49, 0.8);
+	display: none;
+
+}
+
+.nav .nav-bar .lamps1 li {
+	border: 0;
+	color: #bbb;
+	margin: auto;
+	float: left;
+	margin-left: 150px;
+}
+
+.nav .nav-bar .lamps:hover .lamps1 {
+	display: block;
+}
+
+.nav .nav-bar .lamps1 li:hover {
+	color: #FFFFFF;
+}
+
+.nav .nav-bar .htextiles1 {
+	width: 1200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	background-color: rgba(49, 49, 49, 0.8);
+	display: none;
+
+}
+
+.nav .nav-bar .htextiles1 li {
+	border: 0;
+	color: #bbb;
+	margin: auto;
+	float: left;
+	margin-left: 150px;
+}
+
+.nav .nav-bar .htextiles:hover .htextiles1 {
+	display: block;
+}
+
+.nav .nav-bar .htextiles1 li:hover {
+	color: #FFFFFF;
+}
+
+.nav .nav-bar .decoration1 {
+	width: 1200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	background-color: rgba(49, 49, 49, 0.8);
+	display: none;
+
+}
+
+.nav .nav-bar .decoration1 li {
+	border: 0;
+	color: #bbb;
+	margin: auto;
+	float: left;
+	margin-left: 150px;
+}
+
+.nav .nav-bar .decoration:hover .decoration1 {
+	display: block;
+}
+
+.nav .nav-bar .decoration1 li:hover {
+	color: #FFFFFF;
+}
+
+.nav .nav-bar .tableware1 {
+	width: 1200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	background-color: rgba(49, 49, 49, 0.8);
+	display: none;
+
+}
+
+.nav .nav-bar .tableware1 li {
+	border: 0;
+	color: #bbb;
+	margin: auto;
+	float: left;
+	margin-left: 150px;
+}
+
+.nav .nav-bar .tableware:hover .tableware1 {
+	display: block;
+}
+
+.nav .nav-bar .tableware1 li:hover {
+	color: #FFFFFF;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.footer {
+	height: 550px;
+	background-color: #1B1B1B;
+}
+
+.footer>div {
+	padding-top: 50px;
+}
+
+.footer .footerlogo {
+	width: 210px;
+	height: 200px;
+}
+
+.footer .footerlogo .pic {
+	width: 200px;
+	height: 20px;
+	background: url(../../img/footlogo.png) no-repeat center center;
+	background-size: cover;
+}
+
+.footer .footerlogo span {
+	display: block;
+	margin-top: 20px;
+	color: #F1F4F8;
+}
+
+.footer .content {
+	flex: 1;
+	height: 200px;
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	display: flex;
+}
+
+.footer .content>div {
+	width: 30%;
+	height: 200px;
+	margin: 0 20px;
+	/* background-color: red; */
+}
+
+.footer .content .title {
+	font-size: 14px;
+	color: #A0A0A0;
+	width: 100px;
+	height: 30px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	border-bottom: #a0a0a0 1px solid;
+}
+
+
+.footer .content .cnt {
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.footer .content .cnt li {
+	color: #C7D2C7;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.footer .content .cnt li:hover {
+	color: #FFFFFF;
+}
+
+.footer .phone {
+	width: 320px;
+	height: 200px;
+	margin-left: 30px;
+}
+
+.footer .phone .title {
+	font-size: 14px;
+	color: #A0A0A0;
+	width: 100px;
+	height: 30px;
+	padding-bottom: 5px;
+}
+
+.footer .phone .number {
+	font-size: 18px;
+	color: #fff;
+	padding-bottom: 5px;
+}
+
+.footer .phone .online {
+	font-size: 14px;
+	color: #fff;
+	width: 80px;
+	height: 30px;
+	margin-top: 15px;
+	border: 1px solid #FFFFFF;
+	border-radius: 15px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 30px;
+}
+
+.footer .phone .online:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.footer .phone .newhome {
+	font-size: 14px;
+	width: 240px;
+	height: 40px;
+	margin-top: 35px;
+	border: 1px solid #FFFFFF;
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px;
+	background-color: #fff;
+	color: #000000;
+}
+
+.footer .phone .newhome:hover {
+	background-color: #1B1B1B;
+	color: #fff;
+}
+
+.footerwords {
+	width: 1200px;
+	text-align: center;
+	margin: 50px auto 0 auto;
+	color: #aaa;
+	font-size: 16px;
+	border-top: 1px solid #EEEEEE;
+}
